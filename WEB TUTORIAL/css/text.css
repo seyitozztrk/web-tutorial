@@ -1,0 +1,21 @@
+
+
+a:link {
+	color:deeppink;
+	text-decoration: : line-through;
+}
+a:visited {
+	color: yellow;
+	text-decoration: overline;
+}
+a:hover {
+	color: green;
+	text-decoration: overline;
+}
+a:active {
+	color: gray;
+}
+
+/*www.fontsquirrel.com
+www.fontex.org
+www.openfontlibrary.org 	*/

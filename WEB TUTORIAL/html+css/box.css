@@ -1,0 +1,68 @@
+
+
+td.description {
+	min-width: 450px;
+	max-width: 650px;
+	text-align: left;
+	padding:5px;
+	margin: 0px;
+}
+
+h2, p {
+	width:400px;
+	font-size: 90%;
+	line-height: 30px;
+}
+h2 {
+	color:#0088dd;
+	border-bottom: 1px solid #0088dd;
+}
+
+p{
+	min-height: 100px;
+	max-height: 300px;
+}
+p.one {
+	/*overflow: scroll;*/
+	border-width: 10px;
+	border-color: red;
+}
+p.two {
+	/*overflow: scroll;*/
+	border-width: thick;
+	border-color:green;
+}
+
+p.on {
+	border-color: black;
+	border-width: 25px;
+	border-style:all; 
+	border-top:solid;
+}
+p.tw {
+border-width: thick;
+border-style: dashed;
+border-right-width: 2px;
+border-width: 5px 1px 10px 4px;
+}
+p.thre {
+border-width: 1px 4px 12px 4px;
+border-style: double;
+border-color:red;}
+
+p.four { 
+	width: 250px;
+	border: 3px dotted #0088dd;
+	padding-right: 50px;
+	padding-top:50px;
+ }
+
+p {
+width: 275px;
+border: 2px solid #0088dd;}
+p.example {
+padding: 10px;
+}
+p.textalign {
+margin: 10px auto 10px auto;
+text-align: left;}s

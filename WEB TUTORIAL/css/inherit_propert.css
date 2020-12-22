@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: white;
+	padding: 50px;
+}
+.page {
+	border: 1px solid #665544;
+	background-color: red;
+	color: black;
+	padding: inherit;
+}
+
+/*color name 	*/
+h1{color:Yellow;}
+/*hex code*/
+h2{color:#ee3e80;
+	opacity: 0.5;
+}
+/*rgb value*/
+p {color: rgb(0,0,255 );
+	opacity: 0.5;
+}

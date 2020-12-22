@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="http://www.example.com/subscribe.php" method="get">
+		<hr>
+		<p>Username:
+			<input type="text" name="username" size="5" maxlength="10">
+		</p> 
+		<hr>
+		<p>Password:
+			<input type="password" name="password" size="4" maxlength="7">
+		</p>
+		<hr>
+		<p>What did you think of this site?</p>
+		<textarea name="comments" cols="20" rows="4">Enter your comments...
+		</textarea>
+		<hr>
+		<p>Please select your favorite genre:
+			<br />
+			<input type="radio" name="genre" value="rock" >Rock
+			<input type="radio" name="genre" value="pop" checked="checked"> Pop
+			<input type="radio" name="genre" value="jazz" >Jazz
+		</p>
+		<hr>
+		<p>Please select your favorite music service(s):
+			<input type="checkbox" name="service" value="itunes" checked="checked">iTunes
+			<input type="checkbox" name="service" value="lastfm"> Last.fm
+			<input type="checkbox" name="service" value="spotify"> Spotify
+		</p>
+		<hr>
+		<p>What device do you listen to music on?
+			<select name="devices">
+				<option value="ipod">iPod</option>
+				<option value="radio">Radio</option>
+				<option value="computer">Computer</option>
+			</select>
+		</p>
+		<hr>
+		<p>Do you play any of the following instruments?
+		(You can select more than one option by holding
+		down control on a PC or command key on a Mac
+		while selecting different options.)
+		</p>
+		<hr>
+		<select name="instruments" size="3" multiple="multiple">
+			<option value="guitar" selected="selected">Guitar</option>
+			<option value="drums">Drums</option>
+			<option value="keyboard" selected="selected">Keyboard</option>
+			<option value="bass">Bass</option>
+		</select>
+		<hr>
+		<p>Upload your song in MP3 format:</p>
+		<input type="file" name="user-song"> <br>
+		<input type="submit" name="upload">
+		<hr>
+		<p>Subscribe to our email list:</p>
+		<input type="text" name="email">
+		<input type="submit" name="subscribe" value="Subscribe">
+		<hr>
+		<p>Subscribe to our email list:</p>
+		<input type="text" name="email">
+		<input type="image" src="images\smile.png" width="100" height="100">
+		<hr>
+		<p>**************BUTTON CONTROLS***************</p>
+		<button>
+			<img src="images\smile.png" alt="add" width="10" height="10">
+			Add
+		</button>
+		<input type="hidden" name="bookmark" value="S.A.OZTURK">
+		<br>
+		<hr>
+		<label>Age: <input type="text" name="age"></label>
+		<br>
+		Gender:
+
+		<input id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+		
+		<input id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+		<hr>
+		<fieldset>
+			<legend>Contact details:</legend>
+			<label>Email:<br>
+				<input type="text" name="email"></label><br>
+			<label>Mobile:<br>
+				<input type="text" name="mobile"></label><br>
+			<label>Telephone<br>
+				<input type="text" name="telephone"></label><br>
+		</fieldset>
+		<hr>
+		<label for="username">Username:</label>
+		<input type="text" name="username" required="required"><br>
+		<label for="password">Password: </label>
+		<input type="password" name="password" required="required">
+		<input type="submit" name="Submit1">
+		<hr>
+		<label for="username">Departure Date:</label>
+		<input type="date" name="depart">
+		<input type="submit" name="Submit2">
+		<hr>
+		<p>Please enter your email address:</p>
+		<input type="email" name="email" required="required">
+		<input type="submit" name="Submit3">
+		<p>Please enter your website address:</p>
+		<input type="url" name="website" required="required">
+		<input type="submit" name="Submit" >
+		<hr>
+		<p>Search:</p>
+		<input type="search" name="search" placeholder="Enter keyword">
+		<input type="submit" name="Search">
+	</form>
+</body>
+</html>

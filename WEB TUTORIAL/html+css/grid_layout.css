@@ -1,0 +1,32 @@
+* {
+font-family: Arial, Verdana, sans-serif;
+color: #665544;
+text-align: center;
+}
+
+#nav, #feature, .article, #footer {
+background-color: #efefef;
+margin-top: 20px;
+padding: 10px 0px 5px 0px;
+}
+
+#feature, .article {
+height: 100px;
+}	
+
+#col1, #col2, #col3 {
+	float: left;
+	background-color: #efefef;
+	margin: 15px 3px 5px 0px;
+	padding: 20px 0px 0px 0px;
+	height: 100px;
+	width: 32.8%;
+}
+#footer {
+	float: left;
+	width: 100%;
+}
+li {
+display: inline;
+padding: 5px;}
+
